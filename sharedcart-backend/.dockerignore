@@ -1,0 +1,48 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Documentation
+*.md
+docs/
+LICENSE
+
+# Development files
+.env
+.env.*
+!.env.example
+*.log
+*.out
+
+# Test files
+*_test.go
+testdata/
+coverage.*
+
+# Build artifacts
+bin/
+dist/
+tmp/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# CI files
+.golangci.yml
+
+# Scripts
+scripts/
+*.sh
