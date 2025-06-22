@@ -1,0 +1,16 @@
+# terraform/terraform.tfvars.example
+# Copy this file to terraform.tfvars and customize
+
+# Basic configuration
+aws_region   = "ca-central-1"
+project_name = "sharedcart"
+environment  = "production"
+owner        = "Your Name"
+
+# Custom domain (optional)
+enable_custom_domain = false
+domain_name         = ""  # e.g., "app.yourdomain.com"
+
+# If you want to use a custom domain, set:
+# enable_custom_domain = true
+# domain_name         = "sharedcart.yourdomain.com"
