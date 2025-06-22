@@ -1,6 +1,31 @@
 # SharedCart - Expense Sharing Application
 
-A modern expense sharing application built with Go backend, React frontend, and PostgreSQL database.
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/JacksonYuKe/sharedcart)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green## 🤝 Contributing
+
+1. Fork the repository: https://github.com/JacksonYuKe/sharedcart
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 🔗 Links
+
+- **GitHub Repository**: https://github.com/JacksonYuKe/sharedcart
+- **Live Application**: https://d2pkj2x6r3y4d0.cloudfront.net
+- **Issues & Bug Reports**: https://github.com/JacksonYuKe/sharedcart/issues
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with modern Go and React best practices
+- Deployed using AWS free tier services
+- Infrastructure managed with Terraformo=aws)](https://d2pkj2x6r3y4d0.cloudfront.net)
+
+A modern expense sharing application built with Go backend, React frontend, and PostgreSQL database. Deployed on AWS with production-ready infrastructure.
 
 ## 🚀 Features
 
