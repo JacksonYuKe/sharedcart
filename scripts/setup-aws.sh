@@ -150,7 +150,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         echo -e "${GREEN}🌐 Your infrastructure is ready at: $WEBSITE_URL${NC}"
         echo ""
         echo "Next step: Deploy your frontend application"
-        echo "  cd ../frontend && ../scripts/deploy-frontend.sh"
+        echo "  cd ../sharedcart-frontend && ../scripts/deploy-frontend.sh"
     else
         echo -e "${RED}❌ Infrastructure deployment failed${NC}"
         exit 1

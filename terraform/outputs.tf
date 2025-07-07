@@ -44,3 +44,19 @@ output "environment" {
   description = "Environment"
   value       = var.environment
 }
+
+# Backend API outputs
+output "backend_api_url" {
+  description = "Backend API URL"
+  value       = "http://${aws_lb.backend.dns_name}/api/v1"
+}
+
+output "backend_alb_dns_name" {
+  description = "Backend ALB DNS name"
+  value       = aws_lb.backend.dns_name
+}
+
+output "ecr_repository_url" {
+  description = "ECR repository URL for backend"
+  value       = aws_ecr_repository.backend.repository_url
+}

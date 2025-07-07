@@ -22,6 +22,8 @@ func SetupRoutes(router *gin.Engine, cfg *config.Config) {
 	billHandler := handlers.NewBillHandler(billService)
 	settlementHandler := handlers.NewSettlementHandler(settlementService)
 
+	// Health check endpoint (removed duplicate - handled elsewhere)
+
 	// API v1 routes
 	v1 := router.Group("/api/v1")
 	{

@@ -44,7 +44,7 @@ echo "  Distribution: $DISTRIBUTION_ID"
 echo "  Region: $AWS_REGION"
 
 # Go back to frontend directory
-cd ../frontend
+cd ../sharedcart-frontend
 
 # Install dependencies
 echo -e "${YELLOW}📦 Installing dependencies...${NC}"

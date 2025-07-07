@@ -40,3 +40,9 @@ variable "db_password" {
   type        = string
   sensitive   = true
 }
+
+variable "jwt_secret" {
+  description = "JWT secret for authentication"
+  type        = string
+  sensitive   = true
+}
