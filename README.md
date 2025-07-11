@@ -145,3 +145,4 @@ curl -X POST https://sharedcart-backend-snowy-sky-5801.fly.dev/api/v1/auth/login
 ## License
 
 MIT License
+# Trigger CI/CD - Thu 10 Jul 2025 23:35:28 EDT
